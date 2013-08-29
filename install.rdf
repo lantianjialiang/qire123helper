@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>qire123helper@blog.csdn.net.lantianjialiang</em:id>
+    <em:name>Qire123 Helper</em:name>
+    <em:version>1.0</em:version>
+    <em:description>Qire123 bdhd download address retrive extension for Firefox</em:description>
+    <em:creator>jialiang</em:creator>
+    <em:homepageURL>http://blog.csdn.net/lantianjialiang</em:homepageURL>
+	
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://qire123helper/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://qire123helper/locale/overlay.dtd">
+<overlay id="qire123helper-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+
+  <popup id="contentAreaContextMenu">
+  <menuitem id="qire123helper.context.menu" label="Copy Bdhds" oncommand="Qire123Helper.onMenuItemCommand(event);"
+            insertafter="context-selectall"/>
+  </popup>
+</overlay>

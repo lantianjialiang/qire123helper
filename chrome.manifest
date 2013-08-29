@@ -1,0 +1,2 @@
+content	qire123helper	content/
+overlay	chrome://browser/content/browser.xul	chrome://qire123helper/content/overlay.xul
